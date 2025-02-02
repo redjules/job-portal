@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-// import { Button } from "./ui/button";
+import { Button } from "./ui/button";
 import {
   SignedIn,
   SignedOut,
@@ -15,13 +15,14 @@ const Header = () => {
           <img src="/logo.png" className="h-20" />
         </Link>
 
-        <SignedOut>
+        <Button variant="outline">Login</Button>
+
+        {/* <SignedOut>
           <SignInButton />
         </SignedOut>
         <SignedIn>
           <UserButton />
-        </SignedIn>
-        {/* <Button variant="outline">Login</Button> */}
+        </SignedIn> */}
       </nav>
     </>
   );
