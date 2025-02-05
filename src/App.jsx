@@ -9,6 +9,7 @@ import SavedJobs from "./pages/saved-job";
 import MyJobs from "./pages/my-jobs";
 import { ThemeProvider } from "./components/theme-provider";
 import JobPage from "./pages/job";
+import ProtectedRoute from "./components/protected-route";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/onboarding",
-        element: <Onboarding />,
+        element: (
+          <ProtectedRoute>
+            <Onboarding />
+          </ProtectedRoute>
+        ),
       },
       {
         path: "/jobs",
