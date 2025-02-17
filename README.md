@@ -14,3 +14,7 @@ React JS and Vite with Tailwind, Supabase, Clerk, Shadcn UI
 # Final app
 
 https://job-portal-three-green.vercel.app/
+
+## Screenshot
+
+![Screenshot 2025-02-17 at 01 42 56](https://github.com/user-attachments/assets/840503a3-fd61-4c62-82ab-27f3f273bd84)
